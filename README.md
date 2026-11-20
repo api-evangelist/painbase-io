@@ -1,4 +1,4 @@
-# painbase-io
+# Painbase
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,115 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-painbase-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://painbase.io/
+Painbase is a market‑intelligence platform that reads Hacker News, App Store reviews, GitHub Issues and TabNews for complaints, then surfaces startup ideas built on the loudest pain. It helps founders validate concepts before building, offering searchable insights and trend analysis across tech communities.
+
+**Areas:** Company · Market Intelligence · Startup Ideas · Customer Complaints · Technology Trends
+
+## Painbase on APIs.io
+
+Everything profiled for Painbase is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/painbase-io/](https://apis.io/providers/painbase-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Painbase API](https://apis.io/apis/painbase-io/painbase-api/) — Painbase provides an MCP server and REST API for accessing market‑intelligence data about tech community pain points. Documentation is at the developer portal.
+- [Painbase API](https://apis.io/apis/painbase-io/painbase-io-api/) — Painbase API as documented publicly: 1 operations. Contract generated from the documentation by API Evangelist (2026-11-20); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (1)
+
+The data models the API reads and writes.
+
+- [GetApiV1ExportResponse](https://apis.io/schemas/painbase-io/painbase-io-get-api-v1-export-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Painbase Io Context](https://apis.io/jsonld/painbase-io/painbase-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Painbase API Rules](https://apis.io/rules/painbase-io/painbase-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Painbase Domain Security](https://apis.io/security/painbase-io/painbase-io-domain-security/)
+- [Painbase Vulnerability Disclosure](https://apis.io/security/painbase-io/painbase-io-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Painbase Plans Pricing](https://apis.io/plans/painbase-io/painbase-io-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://painbase.io/)
+- [Pricing](https://painbase.io/pricing)
+- [Terms of service](https://painbase.io/terms)
+- [Privacy policy](https://painbase.io/privacy)
+
+## API Evangelist rating
+
+**Kin Score 45.4** — developing · rubric 0.27.0 · scored 2026-11-20
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 47.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 63.7 |
+
+**Agent readiness 41.9** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/painbase-io/](https://apis.io/providers/painbase-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Painbase: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/painbase-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
